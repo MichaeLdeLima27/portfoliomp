@@ -1,7 +1,12 @@
+import Navbar from "./Components/Navbar/Navbar";
+import "./App.css";
+import Intro from "./Components/Intro/Intro";
+
 function App() {
   return (
     <div className="App">
-      I am here with new settings
+      <Navbar />
+      <Intro />
     </div>
   );
 }
